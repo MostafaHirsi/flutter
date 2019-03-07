@@ -571,12 +571,12 @@ class _BottomNavigationBarState extends State<BottomNavigationBar> with TickerPr
       explicitChildNodes: true,
       child: Stack(
         children: <Widget>[
-          Positioned.fill(
-            child: Material( // Casts shadow.
-              elevation: 8.0,
-              color: backgroundColor,
-            ),
-          ),
+          // Positioned.fill(
+          //   child: Material( // Casts shadow.
+          //     elevation: 8.0,
+          //     color: backgroundColor,
+          //   ),
+          // ),
           ConstrainedBox(
             constraints: BoxConstraints(minHeight: kBottomNavigationBarHeight + additionalBottomPadding),
             child: Stack(
